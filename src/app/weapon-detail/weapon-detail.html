@@ -1,0 +1,50 @@
+@if (weapon(); as weapon){
+    <div class="weapon_card">
+        <div class="info">
+            <div class="name_desc">
+            <h1>{{ weapon.name }}</h1>
+            <div class="badge_cont"><p class="badge">[</p><p>{{ weapon.type?.toUpperCase() ?? 0}}</p><p class="badge">]</p></div>
+            <h3>{{ weapon.description }}</h3>
+            </div>
+
+            <div class="characteristics">
+            <div class="stat">
+                <h3>DAMAGE</h3>
+                <div class="bar">
+                    <div class="fill" [style.width.%] = 'weapon.damage' style="background-color: #FF6B00;"></div>
+                </div>            
+            </div>
+            
+            <div class="stat">
+                <h3>RANGE</h3>
+                <div class="bar">
+                    <div class="fill" [style.width.%] = 'weapon.range' style="background-color: #FF6B00;"></div>
+                </div>            
+            </div>
+            
+            <div class="stat">
+                <h3>MOBILITY</h3>
+                <div class="bar">
+                    <div class="fill" [style.width.%] = 'weapon.mobility' style="background-color: #FF6B00;"></div>
+                </div>            
+            </div>
+            <div class="stat">
+                <h3>RECOIL</h3>
+                <div class="bar">
+                    <div class="fill" [style.width.%] = 'weapon.recoil' style="background-color: #FF6B00;"></div>
+                </div>            
+            </div>
+            <div class="stat">
+                <h3>HANDLING</h3>
+                <div class="bar">
+                    <div class="fill" [style.width.%] = 'weapon.handling' style="background-color: #FF6B00;"></div>
+                </div>            
+            </div>
+            </div>
+        </div>
+
+        <div class="weapon_image">
+            <img [src]="'/' + weapon.image">
+        </div>
+    </div>
+}

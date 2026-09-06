@@ -1,0 +1,208 @@
+#main_wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.weapon_card {
+  background-color: var(--black-color);
+  /*box-shadow: 
+    inset 0 0 80px 20px rgba(57, 57, 57, 0.645),
+    inset 0 10px 15px -10px rgba(24, 24, 24, 0.253); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  color: var(--white-color);
+  border: 1px solid rgb(99, 99, 99);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ 
+.weapon_card:hover{
+  border-color: var(--main-color);
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(255, 128, 0, 0.12);
+}
+.weapon_card:hover img{
+  transform: scale(1.10);
+   
+}
+.weapon_card::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--main-color);
+  transition: 0.35s ease;
+  transform: translateX(-50%);
+}
+
+.weapon_card:hover::before{
+  width: 100%;
+}
+
+/* ========================= */
+
+
+#button_cont{
+  font-family: "Hitmarker-regular";
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding-bottom: 25px; 
+  height: auto;
+  border: 1px solid rgb(99, 99, 99);
+}
+
+#filter_buttons{
+  display: flex;
+  width: 520px;
+  gap: 5px;
+  border-right: 2px solid var(--main-color);
+  padding-right: 30px;
+  
+}
+#types_buttons{
+  width: 350px;
+  border-right: 2px solid var(--main-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: flex-start;
+   
+}
+#types_buttons button{
+  width: 100px;
+  height: 45px; 
+  box-sizing: border-box;
+}
+button{
+  width: 200px;
+  height: 35px;
+  font-family: "Hitmarker-regular";
+  font-size: large;
+  color: var(--main-color);
+}
+button.active{
+  border: 2px solid var(--main-color);
+  background-color: var(--black-color);
+}
+button:hover{
+  border: 3px solid var(--main-color);
+}
+button.active{
+  border: 2px solid var(--main-color);
+  background-color: var(--black-color);
+   
+}
+#input_cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+}
+input{
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-family: "Hitmarker-regular";
+  font-size: large;
+  color: var(--main-color);
+  background-color: var(--black-color);
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.25s ease;
+  border: 1px solid var(--main-color);
+}
+
+input:focus{
+  border-color: var(--white-color);
+  box-shadow: 0 0 10px rgba(255, 128, 0, 0.15);
+}
+.info{
+  letter-spacing: 2px;
+  width: 250px;
+ 
+}
+h1{
+  font-family: 'Hitmarker-regular';
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  text-shadow: 0 0 10px rgba(206, 100, 13, 0.638);
+}
+h3{
+  font-family: 'Hitmarker-light';
+  font-weight: 100;
+   
+  
+}
+h1::after{
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgb(99, 99, 99);
+  opacity: 0.6;
+}
+.name_desc{
+  padding-bottom: 10px;
+}
+#cards_cont{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 40px;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ 
+.weapon_image img{
+  width: 270px;
+  height: 140px;
+  transition: 0.3s ease;
+} 
+.badge{
+  color: var(--main-color);
+  font-size: larger;
+}
+.badge_cont{
+  font-family: 'Hitmarker-regular';
+  display: flex;
+  padding-top: 5px;
+  font-size: larger;
+  padding-bottom: 5px;
+  gap: 2px;
+  align-items: center;
+}
+
+.bar{
+  height: 6px;
+  background: #222;
+  border: 1px solid #333;
+}
+.fill{
+  height: 100%;
+  background: var(--main-color);
+  transition: width 0.3s ease;
+}
+.stat{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+
+}

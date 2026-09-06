@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Hitmarker Condensed';
+    src: url('HitmarkerCondensed-Black.eot');
+    src: local('Hitmarker Condensed Black'), local('HitmarkerCondensed-Black'),
+        url('HitmarkerCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerCondensed-Black.woff2') format('woff2'),
+        url('HitmarkerCondensed-Black.woff') format('woff'),
+        url('HitmarkerCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Condensed';
+    src: url('HitmarkerCondensed-Light.eot');
+    src: local('Hitmarker Condensed Light'), local('HitmarkerCondensed-Light'),
+        url('HitmarkerCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerCondensed-Light.woff2') format('woff2'),
+        url('HitmarkerCondensed-Light.woff') format('woff'),
+        url('HitmarkerCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Condensed';
+    src: url('HitmarkerCondensed-Bold.eot');
+    src: local('Hitmarker Condensed Bold'), local('HitmarkerCondensed-Bold'),
+        url('HitmarkerCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerCondensed-Bold.woff2') format('woff2'),
+        url('HitmarkerCondensed-Bold.woff') format('woff'),
+        url('HitmarkerCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Text';
+    src: url('HitmarkerText-Medium.eot');
+    src: local('Hitmarker Text Medium'), local('HitmarkerText-Medium'),
+        url('HitmarkerText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerText-Medium.woff2') format('woff2'),
+        url('HitmarkerText-Medium.woff') format('woff'),
+        url('HitmarkerText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Text';
+    src: url('HitmarkerText-Regular.eot');
+    src: local('Hitmarker Text Regular'), local('HitmarkerText-Regular'),
+        url('HitmarkerText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerText-Regular.woff2') format('woff2'),
+        url('HitmarkerText-Regular.woff') format('woff'),
+        url('HitmarkerText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Normal';
+    src: url('HitmarkerNormal-Bold.eot');
+    src: local('Hitmarker Normal Bold'), local('HitmarkerNormal-Bold'),
+        url('HitmarkerNormal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerNormal-Bold.woff2') format('woff2'),
+        url('HitmarkerNormal-Bold.woff') format('woff'),
+        url('HitmarkerNormal-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Normal';
+    src: url('HitmarkerNormal-Regular.eot');
+    src: local('Hitmarker Normal Regular'), local('HitmarkerNormal-Regular'),
+        url('HitmarkerNormal-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerNormal-Regular.woff2') format('woff2'),
+        url('HitmarkerNormal-Regular.woff') format('woff'),
+        url('HitmarkerNormal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Normal';
+    src: url('HitmarkerNormal-Medium.eot');
+    src: local('Hitmarker Normal Medium'), local('HitmarkerNormal-Medium'),
+        url('HitmarkerNormal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerNormal-Medium.woff2') format('woff2'),
+        url('HitmarkerNormal-Medium.woff') format('woff'),
+        url('HitmarkerNormal-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Wide';
+    src: url('HitmarkerWide-Black.eot');
+    src: local('Hitmarker Wide Black'), local('HitmarkerWide-Black'),
+        url('HitmarkerWide-Black.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerWide-Black.woff2') format('woff2'),
+        url('HitmarkerWide-Black.woff') format('woff'),
+        url('HitmarkerWide-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Wide';
+    src: url('HitmarkerWide-Regular.eot');
+    src: local('Hitmarker Wide Regular'), local('HitmarkerWide-Regular'),
+        url('HitmarkerWide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerWide-Regular.woff2') format('woff2'),
+        url('HitmarkerWide-Regular.woff') format('woff'),
+        url('HitmarkerWide-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Wide';
+    src: url('HitmarkerWide-Medium.eot');
+    src: local('Hitmarker Wide Medium'), local('HitmarkerWide-Medium'),
+        url('HitmarkerWide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerWide-Medium.woff2') format('woff2'),
+        url('HitmarkerWide-Medium.woff') format('woff'),
+        url('HitmarkerWide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Wide';
+    src: url('HitmarkerWide-Light.eot');
+    src: local('Hitmarker Wide Light'), local('HitmarkerWide-Light'),
+        url('HitmarkerWide-Light.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerWide-Light.woff2') format('woff2'),
+        url('HitmarkerWide-Light.woff') format('woff'),
+        url('HitmarkerWide-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Condensed';
+    src: url('HitmarkerCondensed-Medium.eot');
+    src: local('Hitmarker Condensed Medium'), local('HitmarkerCondensed-Medium'),
+        url('HitmarkerCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerCondensed-Medium.woff2') format('woff2'),
+        url('HitmarkerCondensed-Medium.woff') format('woff'),
+        url('HitmarkerCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Wide';
+    src: url('HitmarkerWide-Bold.eot');
+    src: local('Hitmarker Wide Bold'), local('HitmarkerWide-Bold'),
+        url('HitmarkerWide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerWide-Bold.woff2') format('woff2'),
+        url('HitmarkerWide-Bold.woff') format('woff'),
+        url('HitmarkerWide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Normal';
+    src: url('HitmarkerNormal-Black.eot');
+    src: local('Hitmarker Normal Black'), local('HitmarkerNormal-Black'),
+        url('HitmarkerNormal-Black.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerNormal-Black.woff2') format('woff2'),
+        url('HitmarkerNormal-Black.woff') format('woff'),
+        url('HitmarkerNormal-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Text';
+    src: url('HitmarkerText-Bold.eot');
+    src: local('Hitmarker Text Bold'), local('HitmarkerText-Bold'),
+        url('HitmarkerText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerText-Bold.woff2') format('woff2'),
+        url('HitmarkerText-Bold.woff') format('woff'),
+        url('HitmarkerText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Text';
+    src: url('HitmarkerText-Italic.eot');
+    src: local('Hitmarker Text Italic'), local('HitmarkerText-Italic'),
+        url('HitmarkerText-Italic.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerText-Italic.woff2') format('woff2'),
+        url('HitmarkerText-Italic.woff') format('woff'),
+        url('HitmarkerText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Condensed';
+    src: url('HitmarkerCondensed-Regular.eot');
+    src: local('Hitmarker Condensed Regular'), local('HitmarkerCondensed-Regular'),
+        url('HitmarkerCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerCondensed-Regular.woff2') format('woff2'),
+        url('HitmarkerCondensed-Regular.woff') format('woff'),
+        url('HitmarkerCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hitmarker Normal';
+    src: url('HitmarkerNormal-Light.eot');
+    src: local('Hitmarker Normal Light'), local('HitmarkerNormal-Light'),
+        url('HitmarkerNormal-Light.eot?#iefix') format('embedded-opentype'),
+        url('HitmarkerNormal-Light.woff2') format('woff2'),
+        url('HitmarkerNormal-Light.woff') format('woff'),
+        url('HitmarkerNormal-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
