@@ -1,3 +1,14 @@
 <app-layout>
   <router-outlet></router-outlet>
 </app-layout>
+
+@if(productsService.isLoading()){
+  <h3>Loading...</h3>
+}
+@if(productsService.errorMessage()){
+  <h3>{{productsService.errorMessage()}}</h3>
+}
+
+@for (product of productsService.products(); track product.id){
+  <app-product-card [product]="product" (deleteProduct) = "productsService.removeProduct($event)"/>
+}

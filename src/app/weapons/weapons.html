@@ -16,57 +16,25 @@
   </div>
     <div id="input_cont">
       <input placeholder="SEARCH WEAPON" (input)="setSearch($any($event.target).value)">
-      <div style="display: flex; gap: 5px; font-size: larger; padding-top: 10px;"><p style="color: white; font-size: large;">WEAPONS FOUND:</p><p style="color: #FF6B00; font-size: large;">{{ filteredWeapons().length}}</p></div> 
+      <div style="display: flex; gap: 5px; font-size: larger; padding-top: 10px;"><p style="color: white; font-size: large; letter-spacing: 1px;">WEAPONS FOUND:</p><p style="color: #FF6B00; font-size: large;">{{ filteredWeapons().length}}</p></div> 
     </div>
   </div>
 
   <div id="cards_cont">
     <a *ngFor="let weapon of filteredWeapons()" class="weapon_card" [routerLink]="['/weapons', weapon.id]">
+            
       <div class="info">
-        <div class="name_desc">
-          <h1>{{ weapon.name }}</h1>
-          <div class="badge_cont"><p class="badge">[</p><p>{{ weapon.type?.toUpperCase() ?? 0}}</p><p class="badge">]</p></div>
-        <h3>{{ weapon.description }}</h3>
-        </div>
-
-        <div class="characteristics">
-          <div class="stat">
-            <h3>DAMAGE</h3>
-              <div class="bar">
-                <div class="fill" [style.width.%] = 'weapon.damage' style="background-color: #FF6B00;"></div>
-              </div>            
-          </div>
-          
-          <div class="stat">
-            <h3>RANGE</h3>
-              <div class="bar">
-                <div class="fill" [style.width.%] = 'weapon.range' style="background-color: #FF6B00;"></div>
-              </div>            
-          </div>
-          
-          <div class="stat">
-            <h3>MOBILITY</h3>
-              <div class="bar">
-                <div class="fill" [style.width.%] = 'weapon.mobility' style="background-color: #FF6B00;"></div>
-              </div>            
-          </div>
-          <div class="stat">
-            <h3>RECOIL</h3>
-              <div class="bar">
-                <div class="fill" [style.width.%] = 'weapon.recoil' style="background-color: #FF6B00;"></div>
-              </div>            
-          </div>
-          <div class="stat">
-            <h3>HANDLING</h3>
-              <div class="bar">
-                <div class="fill" [style.width.%] = 'weapon.handling' style="background-color: #FF6B00;"></div>
-              </div>            
-          </div>
+        <div class="weapon_image">
+          <img [src]="'/' + weapon.image">
         </div>
       </div>
-
-      <div class="weapon_image">
-        <img [src]="'/' + weapon.image">
+      
+      <div class="name_cont">
+        <p class="name"> {{ weapon.name }}</p>
+      </div>
+      
+      <div class="view_bar">
+        VIEW
       </div>
     </a>
   </div>
