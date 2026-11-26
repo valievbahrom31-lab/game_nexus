@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { WeaponsService } from './weapons.service';
 import { Weapon } from './weapon';
-import { BehaviorSubject, merge, map} from 'rxjs';
-import { debounceTime, distinctUntilChanged, switchMap} from 'rxjs/operators';
+import { BehaviorSubject, map} from 'rxjs';
+import { debounceTime, distinctUntilChanged} from 'rxjs/operators';
 import { ActivatedRoute, Router, RouterLink } from "@angular/router";
 
 @Component({
