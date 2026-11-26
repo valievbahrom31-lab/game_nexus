@@ -1,4 +1,4 @@
-import { Component, signal, effect, inject } from '@angular/core';
+import { Component, signal} from '@angular/core';
 import { Layout } from './layout/layout';
 import { RouterOutlet } from '@angular/router';
 
